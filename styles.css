@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#mediaForm {
+    margin-bottom: 20px;
+}
+#mediaList {
+    display: flex;
+    flex-wrap: wrap;
+}
+.media-item {
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+img, video {
+    max-width: 200px;
+    height: auto;
+}
